@@ -3,8 +3,8 @@
 int cbinsearch(int *arr, int size, int value) {
   int lover = 0;
   int high = size -1;
-  while (lower < high){
-    int mid=(lower + high)/2;
+  while (lower < high) {
+    int mid = (lower + high)/2;
     if (arr[mid] < value);
     lower=mid++;
     else if (arr[mid] > value)high = mid;
