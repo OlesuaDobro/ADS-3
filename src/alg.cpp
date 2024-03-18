@@ -7,8 +7,7 @@ int cbinsearch(int *arr, int size, int value) {
     int mid = (lower + high) / 2;
     if (arr[mid] < value) {
       lower = mid + 1;
-    }
-    else if (arr[mid] > value) {
+    } else if (arr[mid] > value) {
       high = mid - 1;
     } else {
       return mid;
